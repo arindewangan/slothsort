@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+# Data (regenerable via data/build_dataset.py; kept locally for repro)
+# Uncomment to exclude the generated CSV from the repo:
+# data/file_history.csv
+# OS / editor
+.DS_Store
+*.swp
+# Render temps
+.tmp-hf/

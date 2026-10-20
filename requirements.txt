@@ -1,0 +1,6 @@
+flask>=3.0
+numpy>=1.24
+# TabPFN 2.x: last version with freely downloadable open weights (no account/token).
+# TabPFN >= 3 requires a Prior Labs license acceptance + TABPFN_TOKEN.
+tabpfn>=2.0,<3   # optional at runtime: without it the app runs in labeled fallback mode (TABPFN_MODEL=fallback)
+pytest>=8.0
